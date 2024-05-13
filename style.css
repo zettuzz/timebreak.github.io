@@ -287,6 +287,21 @@ nav li:first-child {
     margin-bottom: 10px; /* Add margin bottom to separate paragraph and button */
     text-align: justify;
 }
+footer {
+    background-color: none;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    color: #eee;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer p {
+    margin: 0;
+}
+
 
 button {
     background-color: #292929; /* Button background color */
@@ -382,7 +397,7 @@ button:hover {
         padding: 0 50px;
         box-sizing: border-box;
         overflow: auto;
-        justify-content: center;
+        justify-content: left;
     }
     .thumbnail::-webkit-scrollbar{
         width: 0;
