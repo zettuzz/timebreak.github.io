@@ -10,23 +10,23 @@
 <body>
         <nav>
             <ul class="sidebar">
-              <li onclick=hideSidebar()><a href="#"><svg fill="#fff" xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
-              <li><a href="#">Home</a></li>
+              <li onclick=hideSidebar()><a><svg fill="#fff" xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+              <li><a href="#home">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#slideList">Caffeine</a></li>
             </ul>
             <ul>
               <li><a><h1>Breaktime</h1></a></li>
-              <li class="hideOnMobile"><a href="#">Home</a></li>
+              <li class="hideOnMobile"><a href="#home">Home</a></li>
               <li class="hideOnMobile"><a href="#about">About</a></li>
               <li class="hideOnMobile"><a href="#slideList">Caffeine</a></li>
-              <li class="menu-button" onclick=showSidebar()><a href="#"><svg fill="#fff" xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+              <li class="menu-button" onclick=showSidebar()><a><svg fill="#fff" xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
             </ul>
         </nav>
 
     <!-- slider -->
 
-    <div class="slider">
+    <div class="slider" id="home">
         <!-- list Items -->
         <div class="list">
             <div class="item active">
