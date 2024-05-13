@@ -121,13 +121,16 @@ nav li:first-child {
 .slider .list .item .content p:nth-child(1){
     text-transform: uppercase;
     letter-spacing: 10px;
+    text-align: justify;
 }
 .slider .list .item .content h2{
     font-size: 65px;
     margin: 0;
+    text-align: justify;
 }
 .slider .list .item .content .sfont{
     font-size: 50px;
+    text-align: justify;
 }
 
 .slider .list .item.active{
@@ -148,6 +151,7 @@ nav li:first-child {
     filter: blur(20px);
     opacity: 0;
     animation: showContent .5s .7s ease-in-out 1 forwards;
+    text-align: justify;
 }
 .slider .list .item.active h2{
     animation-delay: 1s;
@@ -224,8 +228,6 @@ nav li:first-child {
     }   
 
     
-    
-    
 }
 
 .menu li a{
@@ -243,10 +245,12 @@ nav li:first-child {
 
 .about-us h2 {
     margin-top: 0;
+    text-align: justify;
 }
 
 .about-us p {
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 
@@ -281,6 +285,7 @@ nav li:first-child {
 
 .content p {
     margin-bottom: 10px; /* Add margin bottom to separate paragraph and button */
+    text-align: justify;
 }
 
 button {
